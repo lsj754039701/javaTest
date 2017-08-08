@@ -34,6 +34,9 @@ public class Main {
         
         System.out.println("--test--");
 
+        System.out.println("--test--");
+        System.out.println("--null--");
+
         if (x == null){
             System.out.println("--null--");
         }
