@@ -30,9 +30,9 @@ public class Main {
 
         user u = new user();
 
-        user x = new user();
+        user x = null;
         
-        System.out.println("--null--");
+        System.out.println("--test--");
 
         if (x == null){
             System.out.println("--null--");
