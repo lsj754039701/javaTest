@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96b41eca-0bf4-40d1-a0db-a85f268c9223" name="Default" comment="test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reportBean.java" />
+    <list default="true" id="96b41eca-0bf4-40d1-a0db-a85f268c9223" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaTest/Main.class" afterPath="$PROJECT_DIR$/out/production/javaTest/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaTest/test.class" afterPath="$PROJECT_DIR$/out/production/javaTest/test.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaTest/user.class" afterPath="$PROJECT_DIR$/out/production/javaTest/user.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test.java" afterPath="$PROJECT_DIR$/src/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/user.java" afterPath="$PROJECT_DIR$/src/user.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -743,7 +739,7 @@
       <workItem from="1502180635727" duration="2091000" />
       <workItem from="1502246779658" duration="9135000" />
       <workItem from="1502680312065" duration="974000" />
-      <workItem from="1502761688811" duration="24976000" />
+      <workItem from="1502761688811" duration="24984000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1502182004199</created>
@@ -759,11 +755,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502182068440</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1502867690377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1502867690377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61733000" />
+    <option name="totallyTimeSpent" value="61741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="2560" height="1417" extended-state="0" />
