@@ -28,6 +28,8 @@ public class user {
         name = "zll, ";
         age = 22;
         num = 1000;
+
+        t = new test();
     }
 
     private int id;
@@ -51,4 +53,15 @@ public class user {
 
     private int age;
     private int num;
+    private test t;
+
+    public test getT() {
+        return t;
+    }
+
+    public void setT(test t) {
+        this.t = t;
+    }
+
+
 }
