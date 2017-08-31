@@ -36,6 +36,33 @@ public class test {
 //        return new ResponseBean<>(result, "result");
 //    }
 
+//    @SsoAuth
+//    @RequestMapping("/add_project")
+//    public ResponseBean<Boolean> addProjectAndItem() {
+//        List<CustomDimensionBean> dimensions = new ArrayList<>();
+//        CustomDimensionBean dimensionBean = new CustomDimensionBean();
+//        dimensionBean.setName("A");
+//        Map<String, String> map = new HashMap<>();
+//        map.put("1", "zllA");
+//        map.put("2", "zllA");
+//        map.put("3", "zllA");
+//        map.put("4", "zllA");
+//        map.put("5", "zllA");
+//        dimensionBean.setDimensionLevelMap(map);
+//        dimensions.add(dimensionBean);
+//        dimensions.add(dimensionBean);
+//
+//        List<ItemBaseBean> items = new ArrayList<>();
+//        for (int i=0;i<1;i++){
+//            ItemBaseBean itemBaseBean = new ItemBaseBean();
+//            itemBaseBean.setItemId(1111111111);
+//            itemBaseBean.setItemName("测试商品001");
+//            itemBaseBean.setItemUrl("http://wd.geilicdn.com/bj-pc-1103313886-1502699598113-110125752_41_41.jpg?w=41&h=41");
+//        }
+//        Boolean result = evaluatorPlatService.addProjectAndItem(49, "zll", "zll", "zll", 3, items, dimensions);
+//        return new ResponseBean<>(result, "result");
+//    }
+
 
 //    private Map<String, String> getNameMap(List<String> list, Pattern pattern){
 //        Map<String, String> map = new HashMap<>();

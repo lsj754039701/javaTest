@@ -1,11 +1,13 @@
 
 import jdk.nashorn.internal.parser.JSONParser;
 
+import javax.swing.text.html.HTMLDocument;
 import java.lang.invoke.MethodHandle;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -67,20 +69,38 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Map<String, String> map = new HashMap<>();
-        map.put("1", "1");
-//        map.put("2", "1");
-        map.put("3", "1");
-        map.put("4", "1");
+        String s = null;
+        System.out.println(s + "aa");
 
-        Set<String> s = map.keySet();
-        for (int i=1;i<=3;i++){
-            System.out.println(String.valueOf(i));
-            if (!s.contains(String.valueOf(i)) ) {
-                System.out.println("not exit");
-                break;
-            }
+
+        user u = new user();
+        List<user> ul = new ArrayList<>();
+        ul.add(u);
+
+        Map<String, user> map = new HashMap<>();
+        map.put("1", u);
+        Iterator<Map.Entry<String, user>> iterator = map.entrySet().iterator();
+        while (iterator.hasNext()){
+            Map.Entry<String, user> entry = iterator.next();
+            System.out.println(entry.getKey() + " : " + entry.getValue());
         }
+
+
+//        map.put("2", "1");
+//        map.put("3", "1");
+//        map.put("4", "1");
+
+        user t = map.get("1");
+        t.setId(3);
+
+        System.out.println("ul: "+ ul.get(0).getId());
+
+        u.setName("zllzll");
+
+        System.out.println("ul: "+ ul.get(0).getName());
+
+
+
 
 
         List<String> res = new ArrayList<>();

@@ -2,6 +2,17 @@
  * Created by lsj on 17/8/1.
  */
 public class user {
+
+    {
+        System.out.println("normal ");
+
+    }
+
+    static {
+        System.out.println("static ");
+    }
+
+
     public int getId() {
         return id;
     }
@@ -28,8 +39,7 @@ public class user {
         name = "zll, ";
         age = 22;
         num = 1000;
-
-        t = new test();
+        System.out.println("init");
     }
 
     private int id;
@@ -53,15 +63,7 @@ public class user {
 
     private int age;
     private int num;
-    private test t;
 
-    public test getT() {
-        return t;
-    }
-
-    public void setT(test t) {
-        this.t = t;
-    }
 
 
 }
